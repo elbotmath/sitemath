@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    align-items: center;/* aligner les elements sur la ligne horizontales*/
+    display: flex;/* aligner les elements sur la ligne horizontale */
+    justify-content: center;/** aligner les elements sur la ligne vertical */
+    background-color: rgb(27, 109, 45); /* coleur de l'arriere plan**/
+    top: 0px;/* espace sur le dessus de l'element */
+    position: sticky; /*bloquer l'element */
+    justify-content: space-between;/* espacer les elements au max*/
+}
+nav h1{
+    font-size: 30px;/*taille du texte*/
+    color: aliceblue;
+    margin-left: 20px;
+}
+nav .onglet a{
+    padding-left: 10px;
+    text-decoration: none;/* pour enlever le traie sous le lien*/
+    font-size: 20px;
+    color: aliceblue;
+}
+nav .onglet form input{
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+nav .onglet{
+    display: flex;/*aligner les elements sur la ligne horizontale */
+    align-items: center;
+    flex-wrap: wrap; /*ampiler les elements lorsque la resolution ne le permet pas*/
+}
+header{
+    background-image: url("E:\developpement web\HTML\Projet\site_vetement\vetement photo\t shirt");
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26, 173, 70);
+    font-size: 50px;
+}
+.main .card img{
+    width: 350px;
+}
+.main .card{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main .card img:hover{
+    transform: scale(1.09); /*grossir l'image sur laquelle le curseur est*/      
+    transition: 0.3s all;/*mettre un delay pour la transition*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main .card h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
